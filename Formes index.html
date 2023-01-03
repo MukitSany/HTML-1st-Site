@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <!-- Forms -->
+    <form action="process.php" method="POST">
+        <br>
+        <div>
+        <label for="firstName">First Name</label>
+        <input type="text" name="firstName" placeholder="First Name">
+        </div>
+        <br>
+        <div>
+            <label for="lasttName">Last Name</label>
+            <input type="text" name="lasttName" placeholder="Last Name">
+        </div>
+        <br>
+        <div>
+            <label for="Email">Email</label>
+            <input type="Email" name="Email" placeholder="someone@some.exp">
+        </div>
+        <br>
+        <div>
+            <label for="message">message</label>
+            <textarea name="message" id="" cols="30" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="Age">Age</label>
+            <input type="Number" value="30">
+        </div>
+        <br>
+        <div>
+            <label for="birthday">Birthday</label>
+            <input type="Date">
+        </div>
+        <br>
+        <div>
+            <label for="gender">Gender</label>
+            <select name="Gender" id="">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Other">Other</option>
+            </select>
+        </div>
+        <br>
+        <input type="Submit" name="Submit" value="Submit">
+    </form>
+</body>
+</html>
